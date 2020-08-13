@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.georeminder">
+    package="com.example.geo_reminder">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -18,16 +18,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.example.georeminder.activities.MapActivity"></activity>
-        <activity android:name="com.example.georeminder.activities.PermissionActivity" />
+        <activity android:name="com.example.geo_reminder.activities.MapActivity"></activity>
+        <activity android:name="com.example.geo_reminder.activities.PermissionActivity" />
         <activity
-            android:name="com.example.georeminder.activities.HelpActivity"
+            android:name="com.example.geo_reminder.activities.HelpActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name="com.example.georeminder.activities.AboutActivity" />
-        <activity android:name="com.example.georeminder.activities.SettingActivity" />
-        <activity android:name="com.example.georeminder.activities.DashboardActivity" />
-        <activity android:name="com.example.georeminder.activities.LocationlistActivity" />
-        <activity android:name="com.example.georeminder.activities.SplashActivity">
+        <activity android:name="com.example.geo_reminder.activities.AboutActivity" />
+        <activity android:name="com.example.geo_reminder.activities.SettingActivity" />
+        <activity android:name="com.example.geo_reminder.activities.DashboardActivity" />
+        <activity android:name="com.example.geo_reminder.activities.LocationlistActivity" />
+        <activity android:name="com.example.geo_reminder.activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
