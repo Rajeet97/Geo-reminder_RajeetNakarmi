@@ -1,5 +1,4 @@
-package com.example.geo_reminder.activities.BLL;
-
+package com.example.geo_reminder.BLL;
 
 
 import com.example.georeminder.interfaces.Url;
@@ -10,24 +9,25 @@ import java.io.IOException;
 import retrofit2.Call;
 import retrofit2.Response;
 
-public class DeleteTaskBLL {
+public class UpdateTaskBLL {
     private LongLat longLat;
     private String longlatId;
     private String cookie;
     private boolean isSuccess;
 
-    public DeleteTaskBLL(LongLat longLat, String longlatId, String cookie) {
+    public UpdateTaskBLL(LongLat longLat, String longlatId, String cookie) {
         this.longLat = longLat;
         this.longlatId = longlatId;
         this.cookie = cookie;
     }
 
-    public boolean deleteTask() {
-        Call<Void> voidCall = Url.getEndPoints().deletelonglat(cookie, longlatId);
+
+    public boolean updateTask() {
+        Call<Void> voidCall = Url.getEndPoints().updatelonglat(cookie, longlatId, longLat);
         try {
             Response<Void> response = voidCall.execute();
 
-            if(response.isSuccessful()){
+            if (response.isSuccessful()) {
                 isSuccess = true;
             }
         } catch (IOException e) {

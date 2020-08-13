@@ -1,4 +1,4 @@
-package com.example.geo_reminder.activities.BLL;
+package com.example.geo_reminder.BLL;
 
 import com.example.georeminder.interfaces.Url;
 import com.example.georeminder.models.LongLat;
