@@ -10,11 +10,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.georeminder.R;
-import com.example.georeminder.adapters.LocationAdapter;
-import com.example.georeminder.interfaces.Url;
-import com.example.georeminder.models.LongLat;
-import com.example.georeminder.utils.ShakeDetector;
+import com.example.geo_reminder.R;
+import com.example.geo_reminder.adapters.LocationAdapter;
+import com.example.geo_reminder.interfaces.Url;
+import com.example.geo_reminder.models.LongLat;
+import com.example.geo_reminder.utils.ShakeDetector;
 
 import java.util.List;
 

@@ -38,11 +38,11 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.app.NotificationCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
-import com.example.georeminder.BLL.AddTaskBLL;
-import com.example.georeminder.R;
-import com.example.georeminder.StrictMod.StrictMod;
-import com.example.georeminder.interfaces.Url;
-import com.example.georeminder.models.LongLat;
+import com.example.geo_reminder.BLL.AddTaskBLL;
+import com.example.geo_reminder.R;
+import com.example.geo_reminder.StrictMod.StrictMod;
+import com.example.geo_reminder.interfaces.Url;
+import com.example.geo_reminder.models.LongLat;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;

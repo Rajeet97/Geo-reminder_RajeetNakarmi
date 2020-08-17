@@ -1,8 +1,8 @@
 package com.example.geo_reminder.BLL;
 
 
-import com.example.georeminder.interfaces.Url;
-import com.example.georeminder.models.LongLat;
+import com.example.geo_reminder.interfaces.Url;
+import com.example.geo_reminder.models.LongLat;
 
 import java.io.IOException;
 

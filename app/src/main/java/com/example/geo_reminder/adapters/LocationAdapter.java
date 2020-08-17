@@ -15,12 +15,12 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.georeminder.BLL.DeleteTaskBLL;
-import com.example.georeminder.BLL.UpdateTaskBLL;
-import com.example.georeminder.R;
-import com.example.georeminder.StrictMod.StrictMod;
-import com.example.georeminder.interfaces.Url;
-import com.example.georeminder.models.LongLat;
+import com.example.geo_reminder.BLL.DeleteTaskBLL;
+import com.example.geo_reminder.BLL.UpdateTaskBLL;
+import com.example.geo_reminder.R;
+import com.example.geo_reminder.StrictMod.StrictMod;
+import com.example.geo_reminder.interfaces.Url;
+import com.example.geo_reminder.models.LongLat;
 
 import java.util.List;
 

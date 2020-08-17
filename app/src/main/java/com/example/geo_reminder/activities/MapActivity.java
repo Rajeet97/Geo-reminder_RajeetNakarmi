@@ -6,7 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.georeminder.R;
+import com.example.geo_reminder.R;
 
 public class MapActivity extends AppCompatActivity {
 

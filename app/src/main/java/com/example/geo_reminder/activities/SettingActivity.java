@@ -10,7 +10,7 @@ import android.widget.RadioButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.georeminder.R;
+import com.example.geo_reminder.R;
 
 public class SettingActivity extends AppCompatActivity{
 

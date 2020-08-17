@@ -1,6 +1,6 @@
 package com.example.geo_reminder.interfaces;
 
-import com.example.georeminder.models.LongLat;
+import com.example.geo_reminder.models.LongLat;
 
 import java.util.List;
 
